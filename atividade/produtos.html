@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cadastrando novo produto.</h2>
+    <p>Informe o nome, preço e quantidade em estoque!</p>
+    <form>
+        <p><label for="iname">Nome:</label> 
+            <input type="text" name="name" id="iname"></p>
+        <p><label for="iprice">Preço:</label>
+            <input type="" name="price" id="iprice" step="0.01" min="2" placeholder="0.00" required></p>
+        <p><label for="iquantity">Estoque:</label> 
+            <input type="number" name="quantity" id="iquantity"></p>
+        <label for="promotion"><input type="checkbox">Produto em Promoção</input></label>
+        <br><br>
+        <label for="icategory">Categorias</label>
+        <select name="category" id="icategory">
+        <option value="">Selecione uma categoria</option>
+        <option value="eletro">Eletronicos</option>
+        <option value="roup">Vestimentas</option>
+        <option value="carros">Automóveis</option>
+        <option value="revistas">Revistas</option>
+        </select>
+        <br><br>
+        <button type="submit">Cadastrar Produto</button>
+    </form>
+    <p>Clique <a href="lista.html"><strong>aqui</strong></a> para ver os produtos.</p>
+</body>
+</html>
