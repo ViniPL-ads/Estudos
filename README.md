@@ -1,0 +1,1 @@
+Na terceira página que se devia criar uma tabela com os produtos, não consegui entender se havia de ser o produto que o usuário cadastrou, ou apenas algum produto fictício de exemplo, imagino que seja a segunda opção tendo em vista que a primeira exigira js e backend :D
